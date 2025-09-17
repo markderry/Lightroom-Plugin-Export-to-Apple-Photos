@@ -1,0 +1,14 @@
+{
+  "name": "markderry/lightroom-plugin-export-to-apple-photos",
+  "description": "A Lightroom Classic plugin to export photos directly to Apple Photos.",
+  "type": "metapackage",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Mark Derry",
+      "email": "sour_milk_studios@icloud.com"
+    }
+  ],
+  "require": {
+  }
+}
