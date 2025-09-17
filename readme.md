@@ -48,6 +48,12 @@ This plugin allows you to export photos from Adobe Lightroom Classic directly in
 ## License
 MIT
 
+
+## Documentation
+- [User Guide](./user_guide.md)
+- [Reference Manual](./reference_manual.md)
+- [Installation Guide](./installation_guide.md)
+
 ## Author
 Mark Derry
 
