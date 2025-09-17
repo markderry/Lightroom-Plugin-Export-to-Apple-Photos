@@ -50,3 +50,6 @@ MIT
 
 ## Author
 Mark Derry
+
+## Privacy Policy
+See [privacy_policy.md](./privacy_policy.md) for details on how this plugin handles your data.
