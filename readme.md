@@ -15,11 +15,18 @@ This plugin allows you to export photos from Adobe Lightroom Classic directly in
 
 ## Installation
 1. Download or clone this repository.
-2. Locate the `ApplePhotos.lrdevplugin` folder inside the project.
+2. Build a distributable plugin bundle:
+   - Run `make build`
+   - This creates `build/ApplePhotos.lrplugin` and `build/ApplePhotos-<version>.lrplugin.zip`
+3. Locate the `build/ApplePhotos.lrplugin` folder (or unzip `build/ApplePhotos-<version>.lrplugin.zip`).
 3. Open Lightroom Classic.
 4. Go to `File > Plug-in Manager...`.
-5. Click `Add` and select the `ApplePhotos.lrdevplugin` folder.
+5. Click `Add` and select the `build/ApplePhotos.lrplugin` folder.
 6. The plugin should now appear in the list. If there are errors, Lightroom will display them in the Plug-in Manager.
+
+## Build
+- Run `make build` to create installable artifacts under `build/`.
+- Run `make clean` to remove generated build artifacts.
 
 ## Usage
 1. In Lightroom Classic, select the photos you want to export.
