@@ -1,5 +1,9 @@
 # Lightroom Classic to Apple Photos Export Plugin
 
+![Lightroom to Apple Photos Icon](./images/lightroom_to_photos_icon_square.png)
+
+![Lightroom to Apple Photos Banner](./images/lightroom_to_photos_banner.png)
+
 This plugin allows you to export photos from Adobe Lightroom Classic directly into Apple Photos, automatically creating or using an album that matches the original folder name in your Lightroom catalog.
 
 ## Features
